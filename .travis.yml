@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ByJfCg87HzyjlwI3a2KQ5cMzNqMnVue/IeXL0umX5H0UPdu8x+i2h7Zrp/Uik/i5KCFJCnSVDEZAioiWBvFgPIDj7eN5B/5SiuTT7wjM2iVYkqQUdw6JED+yLZrLEqvpP7fhgTrdQfIHPjnRmPP3RaXMHuzvFTJRSYHSfjAwMKmI3cZu1DrPRHdsKCSKKcXVa7K0rKhetcvdXsgmXqBa/zd7il6qWQyBlGEmLns+yFJERcYqSHKNC/DJ6HUlHMWpD/CYj09t3PB77xlgpNsAZqe0yTnoIN28k/sU0B+7dpuGryyklKKzP0/O1RT+qdWEAc2Xdxrc06g86EwFDhgacBTnlmGvK4lSIf5xVoc3gptIBS9OpRN/O3tOnk9vsIcVKbvnAnLirckGmTq2Hs6gtFgkoPHdtX8Jz++vF3l8EvqcJzjm2JyB46rqZ5Aw2EZf5fPE5XR/x9gJjm7rhbLJyYUzo2w6/QAY8DNfnBRVTIs72GbETi+0/mraH/HAq68VY1FUOGkCOYzZEx7Egz7yj22xMuHsA/Ko2JF0J2Xjxygm3xYUDSDsygWnfl+0+OPxFd9jxXxWO+ETl8g7WuLNm8hUhPah084k7YZUqAZ0YvyHzmXdn9UtK3mtsZiB98VHQVnOV8SuaLoY5K4GvNIuLuDTHGrC5t2Xla8vNIh7pVU=
+  app: young-headland-97529
+  on:
+    repo: charlesvilla503/node-shopping-list-integration-tests
+    branch: tests-for-recipes
